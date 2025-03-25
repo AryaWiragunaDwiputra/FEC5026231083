@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+
+.container {
+    width: 100%;
+    max-width: 414px;
+    margin: auto;
+    padding: 0;
+}
+
+.header {
+    background-color: #f2f2f2;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-container {
+    width: 60px;
+    height: 60px;
+    border: 2px solid black;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-container img {
+    width: 50px;
+}
+
+.header-right {
+    flex: 1;
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-right h1 {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: white;
+    padding: 5px;
+}
+
+.search-container input {
+    border: none;
+    padding: 5px;
+    outline: none;
+    width: 100px;
+}
+
+.search-container button {
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.equipment-container {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.equipment-container img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.book-now {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border: 1px solid black;
+    background: white;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.bottom-nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+    border-top: 1px solid #ccc;
+    background: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    max-width: 414px;
+}
+
+.nav-item {
+    text-align: center;
+    color: gray;
+}
+
+.nav-item.active {
+    color: blue;
+    font-weight: bold;
+}
